@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins";
+}
+
+a{
+    color:black
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-left: 54px;
+}
+
+.furniro-logo{
+    padding: 0 0 3px 3px
+}
+
+.nav-button{
+    width: 430px;
+    height: 24px;
+    display: flex;
+    gap: 75px;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+.icon-button{
+    display: flex;
+    gap: 45px;
+    margin-right: 100px;
+}
