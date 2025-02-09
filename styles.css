@@ -99,3 +99,64 @@ a{
     font-size: 16px;
     cursor:pointer;
 }
+
+.category{
+    width: 1183px;
+    height: 685px;
+    margin: 56px 0 56px;
+    margin-inline: auto;
+}
+
+.category-text{
+    text-align: center;
+}
+
+.category-text > h2{
+    font-size: 32px;
+    color: #333333;
+}
+
+.category-text > p{
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 62px;
+}
+
+.category-items{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.category-items > div > div{
+    width: 381px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.cat-item1{
+    background-image: url(/media/category-item1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cat-item2{
+    background-image: url(/media/category-item2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.cat-item3{
+    background-image: url(/media/category-item3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+}
+
+.category-items > div > p{
+    margin-top: 30px;
+}
