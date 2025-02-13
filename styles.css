@@ -472,3 +472,110 @@ a{
     width: 100%;
     height: 100%;
 }
+
+.share{
+    height: 780px;
+}
+
+.share-text{
+    text-align: center;
+    margin-top: 67px;
+}
+
+.share-text > p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #616161;
+}
+
+.share-text > h2{
+    font-size: 40px;
+    margin-top: 8px;
+    color: #3a3a3a;
+}
+
+.share-content{
+    width: 1440px;
+    height: 100%;
+    position: relative;
+    margin-inline: auto;
+}
+
+.share-photo-5{
+    width: 295px;
+    height: 392px;
+    position: absolute;
+    right: 584px;
+    top: 192px;
+}
+
+.share-photo-3{
+    width: 451px;
+    height: 312px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 389px;
+    left: 94px;
+}
+
+.share-photo-4{
+    width: 344px;
+    height: 242px;
+    position: absolute;
+    bottom: 131px;
+    left: 201px;
+}
+
+.share-photo-2{
+    width: 381px;
+    height: 323px;
+    position: absolute;
+    bottom: 50px;
+    left: -196px;
+    object-fit: cover;
+}
+
+.share-photo-1{
+    width: 274px;
+    height: 382px;
+    position: absolute;
+    bottom: 389px;
+    left: -196px;
+    object-fit: cover;
+}
+
+.share-photo-6{
+    width: 290px;
+    height: 348px;
+    position: absolute;
+    right: 278px;
+    bottom: 324px;
+    object-fit: cover;
+}
+
+.share-photo-7{
+    width: 178px;
+    height: 242px;
+    position: absolute;
+    right: 390px;
+    bottom: 66px;
+}
+
+.share-photo-8{
+    width: 425px;
+    height: 433px;
+    position: absolute;
+    bottom: 324px;
+    right: -163px;
+    object-fit: cover;
+}
+
+.share-photo-9{
+    width: 258px;
+    height: 196px;
+    position: absolute;
+    bottom: 112px;
+    right: 116px;
+}
+
+
