@@ -506,7 +506,7 @@ a{
     height: 392px;
     position: absolute;
     right: 584px;
-    top: 192px;
+    top: 142px;
 }
 
 .share-photo-3{
@@ -514,7 +514,7 @@ a{
     height: 312px;
     object-fit: cover;
     position: absolute;
-    bottom: 389px;
+    bottom: 439px;
     left: 94px;
 }
 
@@ -522,7 +522,7 @@ a{
     width: 344px;
     height: 242px;
     position: absolute;
-    bottom: 131px;
+    bottom: 181px;
     left: 201px;
 }
 
@@ -530,7 +530,7 @@ a{
     width: 381px;
     height: 323px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: -196px;
     object-fit: cover;
 }
@@ -539,7 +539,7 @@ a{
     width: 274px;
     height: 382px;
     position: absolute;
-    bottom: 389px;
+    bottom: 439px;
     left: -196px;
     object-fit: cover;
 }
@@ -549,7 +549,7 @@ a{
     height: 348px;
     position: absolute;
     right: 278px;
-    bottom: 324px;
+    bottom: 374px;
     object-fit: cover;
 }
 
@@ -558,14 +558,14 @@ a{
     height: 242px;
     position: absolute;
     right: 390px;
-    bottom: 66px;
+    bottom: 116px;
 }
 
 .share-photo-8{
     width: 425px;
     height: 433px;
     position: absolute;
-    bottom: 324px;
+    bottom: 374px;
     right: -163px;
     object-fit: cover;
 }
@@ -574,7 +574,7 @@ a{
     width: 258px;
     height: 196px;
     position: absolute;
-    bottom: 112px;
+    bottom: 162px;
     right: 116px;
 }
 
