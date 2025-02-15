@@ -39,6 +39,15 @@ a{
     
 }
 
+.nav-button a:hover{
+    color: white;
+    background-color: black;
+}
+
+.icon-button img:hover{
+    filter: invert(50%);
+}
+
 .icon-button{
     display: flex;
     gap: 45px;
@@ -94,10 +103,15 @@ a{
     height: 74px;
     background-color: #B88E2F;
     color: white;
-    border: none;
+    border: 2px solid #B88E2F;
     font-weight: 700;
     font-size: 16px;
     cursor:pointer;
+}
+
+.hero-conteiner button:hover{
+    color: #B88E2F;
+    background-color: white;
 }
 
 .category{
@@ -131,7 +145,7 @@ a{
 
 }
 
-.category-items > div > div{
+.category-items > div > a > div{
     width: 381px;
     height: 480px;
     border-radius: 10px;
@@ -177,6 +191,12 @@ a{
     font-weight: 600;
     border-style:solid;
     background-color: white;
+}
+
+.products-container > button:hover{
+    color: white;
+    background-color: #B88E2F;
+    cursor: pointer;
 }
 
 .products h2{
@@ -288,7 +308,7 @@ a{
 }
 
 .overlay button:hover{
-    background-color: #dddddd;
+    background-color: #d8d8d8;
     transition: 0.3s ease;
 }
 
@@ -334,6 +354,12 @@ a{
     border: none;
     font-size: 16px;
     font-weight:600;
+}
+
+.inspiration-text button:hover{
+    color: #B88E2F;
+    background-color: white;
+    border: #B88E2F 2px solid;
 }
 
 .inspiration-items{
@@ -390,6 +416,11 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.insp-item-text > i:hover{
+    background-color: white;
+    color: #B88E2F;
 }
 
 .insp-blur{ /* kak eto delat'???*/
