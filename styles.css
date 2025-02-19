@@ -505,6 +505,7 @@ a{
 }
 
 .share{
+    overflow: hidden;
     height: 780px;
 }
 
