@@ -93,3 +93,45 @@
 .Default > span{
     margin-left: 30px;
 }
+
+.shop-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 31px 0 40px 0;
+}
+
+.shop-products-pages{
+    width: 392px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 38px;
+    margin-bottom: 85px;
+}
+
+.shop-products-pages div{
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #F9F1E7;
+}
+
+.shop-products-pages p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 98px;
+    background-color: #F9F1E7;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
