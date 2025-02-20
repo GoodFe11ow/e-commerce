@@ -140,3 +140,16 @@
     height: 270px;
     background-color: #FAF3EA;
 }
+
+.facilities-container{
+    padding-top: 100px;
+    display: flex;
+    gap: 55px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.facilities-container > div{
+    display: flex;
+}
