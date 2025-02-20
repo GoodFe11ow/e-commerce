@@ -153,3 +153,19 @@
 .facilities-container > div{
     display: flex;
 }
+
+.facilities-container > div > div{
+    margin-left: 10px;
+}
+
+.facilities-container > div > div > h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+
+.facilities-container > div > div > p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #898989;
+}
