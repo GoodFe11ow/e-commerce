@@ -98,7 +98,7 @@ a{
     padding-bottom: 46px;
 }
 
-.hero-conteiner > button{
+.hero-conteiner > form > button{
     width: 222px;
     height: 74px;
     background-color: #B88E2F;
@@ -182,7 +182,7 @@ a{
     text-align: center;
 }
 
-.products-container > button{
+.products-container > form > button{
     width: 245px;
     height: 48px;
     color: #B88E2F;
@@ -193,7 +193,7 @@ a{
     background-color: white;
 }
 
-.products-container > button:hover{
+.products-container > form > button:hover{
     color: white;
     background-color: #B88E2F;
     cursor: pointer;
