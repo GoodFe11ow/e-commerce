@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="blog.css">
 </head>
 <body>
     <section class="header">
@@ -36,7 +37,7 @@
         <div class="page-name-bg"></div>
         <img src="/media/Meubel House_Logos-05.svg">
         <h1>Blog</h1>
-        <h4>Home > <span style="font-weight: 300;">Blog</span></h4>
+        <h4>Home<i class="fa-solid fa-angle-right" style="margin: 0 8px;"></i><span style="font-weight: 300;">Blog</span></h4>
     </section>
     <section class="blog-main">
         <div class="blog-main-container">
@@ -52,7 +53,7 @@
                         <h3>Going all-in with millennial design</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
                     </div>
-                    <button>Read more</button>
+                    <button class="blog-item-button">Read more</button>
                 </div>
                 <div class="blog-item-2">
                     <img src="/media/blog2.jpg"  width="817" height="500">
@@ -65,7 +66,7 @@
                         <h3>Exploring new ways of decorating</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
                     </div>
-                    <button>Read more</button>
+                    <button class="blog-item-button">Read more</button>
                 </div>
                 <div class="blog-item-3">
                     <img src="/media/blog3.jpg" width="817" height="500">
@@ -78,28 +79,29 @@
                         <h3>Handmade pieces that took time to make</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
                     </div>
-                    <button>Read more</button>
+                    <button class="blog-item-button">Read more</button>
                 </div>
             </div>
             <aside>
                 <div class="blog-categories">
                     <div class="search-form">
                         <form action="" method="GET">
-                          <input class="web__search" type="text" placeholder="Поиск" name="name" required-placeholder="">
-                          <input class="button" type="submit" value="Поиск">
+                          <input class="web-search" type="text" placeholder="" name="name" required-placeholder="">
+                          <button class="search-button"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
                         </form>
                     </div>
                     <div class="blog-categories-types">
                         <h3>Categories</h3>
-                        <p>Crafts 2</p>
-                        <p>Design 8</p>
-                        <p>Handmade 7</p>
-                        <p>Inerior 1</p>
-                        <p>Wood 6</p>
+                        <p style="word-spacing: 180px;">Crafts 2</p>
+                        <p style="word-spacing: 175px;">Design 8</p>
+                        <p style="word-spacing: 140px;">Handmade 7</p>
+                        <p style="word-spacing: 184px;">Inerior 1</p>
+                        <p style="word-spacing: 184px;">Wood 6</p>
                     </div>
                 </div>
                 <div class="recents-posts">
                     <div class="recents-img">
+                        <h3 style="display: inline-block">Recents Posts</h3>
                         <img src="/media/blog-recent1.jpg" width="80" height="80">
                         <img src="/media/blog-recent2.jpg" width="80" height="80">
                         <img src="/media/blog-recent3.jpg" width="80" height="80">
@@ -108,24 +110,24 @@
                     </div>
                     <div class="recents-text">
                         <div>
-                            <p>Going all-in with millennial design</p>
-                            <p>03 Aug 2022</p>
+                            <p class="text-1">Going all-in with<br>millennial design</p>
+                            <p class="text-2">03 Aug 2022</p>
                         </div>
                         <div>
-                            <p>Exploring new ways of decorating</p>
-                            <p>03 Aug 2022</p>
+                            <p class="text-1">Exploring new ways<br>of decorating</p>
+                            <p class="text-2">03 Aug 2022</p>
                         </div>
                         <div>
-                            <p>Handmade pieces that took time to make</p>
-                            <p>03 Aug 2022</p>
+                            <p class="text-1">Handmade pieces<br>that took time to make</p>
+                            <p class="text-2">03 Aug 2022</p>
                         </div>
                         <div>
-                            <p>Modern home in Milan</p>
-                            <p>03 Aug 2022</p>
+                            <p class="text-1">Modern home in<br>Milan</p>
+                            <p class="text-2">03 Aug 2022</p>
                         </div>
                         <div>
-                            <p>Colorful office redesign</p>
-                            <p>03 Aug 2022</p>
+                            <p class="text-1">Colorful office<br>redesign</p>
+                            <p class="text-2">03 Aug 2022</p>
                         </div>
                     </div>
                 </div>
@@ -138,6 +140,74 @@
             <a href="shop.html"><p>Next</p></a>
         </div>
     </section>
+    <section class="facilities">
+        <div class="facilities-container">
+            <div style="width: 337px;">
+                <img src="/media/facilitiesIcon1.svg">
+                <div>
+                    <h4>High Quality</h4>
+                    <p>crafted from top materials</p>
+                </div>
+            </div>
+            <div style="width: 328px;">
+                <img src="/media/facilitiesIcon2.svg">
+                <div>
+                    <h4>Warranty Protection</h4>
+                    <p>Over 2 years</p>
+                </div>
+            </div>
+            <div style="width: 244px;">
+                <img src="/media/facilitiesIcon3.svg">
+                <div>
+                    <h4>Free Shipping</h4>
+                    <p>Order over 150 $</p>
+                </div>
+            </div>
+            <div style="width: 259px;">
+                <img src="/media/facilitiesIcon4.svg">
+                <div>
+                    <h4>24 / 7 Support</h4>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="border-line"></div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main-content">
+                <div class="footer-address">
+                    <h3>Furniro.</h3>
+                    <p>400 University Drive Suite 200 Coral<br>Gables,<br>FL 33134 USA</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-link">
+                        <ul>Links
+                            <li class="footer-home-link"><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="blog.htmlw">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-help">
+                        <ul>Help
+                            <li class="footer-help-1"><a>Payment Options</a></li>
+                            <li><a>Returns</a></li>
+                            <li><a>Privacy Policies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <p>Newsletter</p>
+                        <input type="email" placeholder="Enter Your Email Address">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </div>
+    </footer>
     <script src="https://kit.fontawesome.com/1107bbd977.js" crossorigin="anonymous"></script>
 </body>
 </html>
