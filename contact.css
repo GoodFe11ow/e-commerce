@@ -67,6 +67,8 @@
 }
 
 .form-input > form > label input{
+    font-size: 16px;
+    padding-left: 30px;
     width: 524px;
     height: 71px;
     border-radius: 10px;
@@ -76,20 +78,19 @@
 }
 
 label input::placeholder{
-    padding-left: 30px;
     font-weight: 400;
     font-size: 16px;
 }
 
 textarea{
+    font-size: 16px;
+    padding: 26px 0 0 30px;
     margin: 22px 0 49px;
     border-radius: 10px;
     border: 1px solid #9F9F9F;
 }
 
 textarea::placeholder{
-    margin-top: 26px;
-    padding: 26px 0 0 30px;
     font-size: 16px;
     font-family: 'Poppins';
     font-weight: 400;
